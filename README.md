@@ -1,8 +1,8 @@
 # Contract-testing example on JVM 
 
-In the world of distributed systems it is considered best practice to implement some kind of contract-testing
-for API consumers and producers in order to guarantee smooth integration and spot breaking changes 
-in the very early stages of the development. 
+In the world of distributed systems and functional teams it is considered best practice to implement some 
+kind of contract-testing for API consumers and producers to guarantee smooth integration 
+and spot breaking changes in the very early stages of the development. 
 
 Generally some iterations are needed to define the final shape of an API. All the teams involved
 need to collaborate and choose between a producer-driven or a consumer-driven approach. The latter considers the 
