@@ -17,8 +17,9 @@ the contract works fine when integrating clients and servers.
 Tools such as [dredd](https://github.com/apiaryio/dredd) or [prism](https://github.com/stoplightio/prism) 
 can help to do this manually.
 
-If CI is the case, the ideal would be to build some automated test as part of the pipeline so that any breaking 
-changes would be caught immediately. This is the main intent behind [PACT](https://docs.pact.io/) project.
+If both Producer Team and Consumer Team have a CI pipeline, the ideal would be to build some automated test 
+as part of the workflow so that any breaking changes would be caught immediately. 
+This is the intent behind [PACT](https://docs.pact.io/) project.
   
 Briefly, this is the usual workflow:
 
