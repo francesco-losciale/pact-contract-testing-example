@@ -1,0 +1,42 @@
+{
+  "provider" : {
+    "name" : "dummy-provider"
+  },
+  "consumer" : {
+    "name" : "dummy-consumer"
+  },
+  "interactions" : [ {
+    "providerState" : "HELLO WORLD",
+    "description" : "get hello world response",
+    "request" : {
+      "method" : "GET",
+      "path" : "/hello-world"
+    },
+    "response" : {
+      "status" : 200,
+      "headers" : {
+        "Content-Type" : "application/json"
+      },
+      "body" : {
+        "id" : 2259515122,
+        "content" : "YIehJkECgodQRWgEKvDl"
+      },
+      "responseMatchingRules" : {
+        "$.body.id" : {
+          "match" : "type"
+        },
+        "$.body.content" : {
+          "match" : "type"
+        }
+      }
+    }
+  } ],
+  "metadata" : {
+    "pact-specification" : {
+      "version" : "2.0.0"
+    },
+    "pact-jvm" : {
+      "version" : "2.1.12"
+    }
+  }
+}
